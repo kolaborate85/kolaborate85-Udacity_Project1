@@ -1,0 +1,70 @@
+@import url("index_responsive_stylesheet2.css") (min-width:325px) and (max-width:425px) ;
+@import url("index_responsive_stylesheet.css") (max-width: 900px);
+@import url("index_CSS2.css");
+
+body{
+    background-color: lightgray;
+    background-image: url("https://res.cloudinary.com/adebayo59/image/upload/v1582389605/web_graphics4_jrwxhm.png");
+    margin: 0px;
+}
+
+#headerImage{
+    background-image: url("https://res.cloudinary.com/adebayo59/image/upload/v1583967826/MR-3025-online-learning_ejp4o1.jpg");
+    height: 300px;
+    width: 100%;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: dodgerblue;
+    width:100%;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 8px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+
+} 
+
+a:hover {
+    background-color: maroon;
+}
+
+.bloggerSite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+section{ 
+    margin-top: 10px;
+    width: 600px;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    padding: 30px;   
+}
+
+#buttonPost{
+    border-radius: 10px;
+    background-color: dodgerblue;
+    font-size: 15px;
+}
+h1{
+    font-weight: bold;
+    color: navy;
+}
+
+

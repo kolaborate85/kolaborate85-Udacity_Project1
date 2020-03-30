@@ -1,0 +1,20 @@
+@media(max-width: 900px){
+    .bloggerSite{
+        display: grid;
+    }
+
+    section{ 
+        margin-top: 5px;
+        width: 700px;
+        border: 2px solid dodgerblue;
+        background-color: whitesmoke;
+        padding: 30px;   
+    }
+
+    #headerImage{
+        background-image: url("https://res.cloudinary.com/adebayo59/image/upload/v1583967826/MR-3025-online-learning_ejp4o1.jpg");
+        width: 700px;
+        height:auto;
+    }
+
+}

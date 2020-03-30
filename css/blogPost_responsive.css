@@ -1,0 +1,43 @@
+@media (max-width:760px){
+
+    .blogcontainer{
+        display:flex;
+        flex-direction: column;
+        align-content: space-between;
+        border: 1px solid blue;
+        width: 100%;
+        height: 100%;
+        }
+
+        section{
+            margin-top: 20px;
+            width: 350px;
+            border: 2px solid gray;
+            
+        }
+        
+        #mainBody{
+            padding-left:5px;
+            padding-bottom:15px;
+            font-size: 10px;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: dodgerblue;
+            width:100%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+
+        #tail{
+            grid-area: footer;
+            background-color: brown;
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+            }
+
+}

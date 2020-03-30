@@ -1,0 +1,19 @@
+@media(min-width:325px) and (max-width:425px) {
+
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: dodgerblue;
+        width:100%;
+        overflow: hidden;
+    }
+
+    section{ 
+        margin-top: 5px;
+        width: 385px;
+        border: 2px solid dodgerblue;
+        background-color: whitesmoke;
+        padding: 30px;   
+    }
+}

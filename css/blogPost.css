@@ -1,0 +1,104 @@
+@import "blogPost2.css";
+@import url("blogPost_responsive.css") (max-width: 768px);
+@import url("blogPost_responsive2.css") (max-width:350px) and (max-width:250px);
+
+
+body{
+    margin: 0px;
+}
+
+.blogcontainer{
+display:grid;
+grid-template-columns:200px 800px;
+grid-template-rows: 200px 100% 200px;
+grid-template-areas:
+"header header header header"
+"sidebar main main main"
+"footer footer footer footer";
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: dodgerblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: dodgerblue;
+    width:100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 8px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+
+} 
+
+a:hover {
+    background-color: maroon;
+}
+
+
+p{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+
+post{
+    color: gray;
+}
+
+q{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+    padding-top: 35px;
+}
+
+h1{
+    font-weight: bold;
+    color: navy;
+}
+
+h2{
+    font-weight: bold;
+    color: royalblue;
+}
+
+h3{
+    font-weight: bold;
+    color:maroon;
+}
+
+
+#mainBody{
+    font-size: 18px;
+    padding-left:40px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    
+}
+
+#heading{
+grid-area: header;
+background-color: dodgerblue;
+background-image: url("https://res.cloudinary.com/adebayo59/image/upload/v1581925024/web_graphics_olnaog.png");
+font-size: 45px;
+
+}
+
